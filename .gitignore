@@ -1,0 +1,21 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite Database files (keep gitkeep)
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+!data/.gitkeep
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
+*.log
